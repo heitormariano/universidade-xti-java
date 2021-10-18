@@ -1,0 +1,6 @@
+Heitor Mariano;500.3
+Keyth Hellen;1200.4
+Andre;600.0
+Fabiana;450.2
+Joao;670.28
+Maria;899.22

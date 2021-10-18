@@ -1,0 +1,4 @@
+Heitor;500.3
+Keyth;1200.4
+Andre;600.0
+Fabiana;450.2
