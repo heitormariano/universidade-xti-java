@@ -46,7 +46,7 @@ public class Operador {
 		//elevar 2 a quarta [4] portencia
 		double valor = Math.pow(2, 4);
 		
-		System.out.println("Valor: " + valor);
+		System.out.println("Valor (2 elevado a 4): " + valor);
 		
 		//Area. A = Pi r2 [raio elevado ao quadrado]
 		//forma 1
