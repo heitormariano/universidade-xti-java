@@ -1,8 +1,13 @@
 package br.com.xti.aula055;
 
-public class SenhaInvalidaException extends Exception{
+public class SenhaInvalidaException extends Exception {
 
-	public SenhaInvalidaException(String mensagem){
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public SenhaInvalidaException(String mensagem) {
 		super(mensagem);
 	}
 }

@@ -4,16 +4,17 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class DividePorZeroThrows {
-	public static void dividir(Scanner leitor) throws InputMismatchException, ArithmeticException{
+	public static void dividir(Scanner leitor) throws InputMismatchException, ArithmeticException {
 		System.out.println("Numero: ");
 		int a = leitor.nextInt();
 
 		System.out.println("Divisor: ");
 		int b = leitor.nextInt();
-		
-		int resultado = a/b;
+
+		int resultado = a / b;
 		System.out.println("Resultado divisao: " + resultado);
 	}
+
 	public static void main(String[] args) {
 
 		Scanner ler = new Scanner(System.in);
@@ -27,13 +28,12 @@ public class DividePorZeroThrows {
 			} catch (InputMismatchException e1) {
 				System.err.println("Os numeros devem ser inteiros");
 				e1.printStackTrace();
-				ler.nextLine(); 
+				ler.nextLine();
 
 			} catch (ArithmeticException e2) {
 				System.err.println("Divisor deve ser diferente de zero");
 				e2.printStackTrace();
-			}
-			finally {
+			} finally {
 				System.out.println("Finally executado ...");
 			}
 		} while (continua);
