@@ -4,17 +4,15 @@ public class Matematica {
 
 	/**
 	 * 
-	 * @param um
-	 *            primeiro numero fornecido
-	 * @param dois
-	 *            segundo numero fornecido
+	 * @param primeiroNum primeiro numero fornecido
+	 * @param segundoNum  segundo numero fornecido
 	 * @return o maior dos dois numeros
 	 */
-	public int maior(int um, int dois) {
-		if (um > dois) {
-			return um;
+	public int maior(int primeiroNum, int segundoNum) {
+		if (primeiroNum > segundoNum) {
+			return primeiroNum;
 		} else {
-			return dois;
+			return segundoNum;
 		}
 	}
 
