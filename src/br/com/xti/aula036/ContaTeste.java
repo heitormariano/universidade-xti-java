@@ -1,7 +1,7 @@
 package br.com.xti.aula036;
 
 public class ContaTeste {
-	
+
 	public static void main(String[] args) {
 		Conta conta = new Conta();
 		conta.setCliente("Fulano da Silva");
@@ -21,9 +21,9 @@ public class ContaTeste {
 
 		System.out.println("Saldo depois do deposito:");
 		conta.exibirSaldo();
-		
+
 		// criando uma conta de destino para realizar uma tranferencia
-		
+
 		Conta destino = new Conta();
 		destino.setCliente("Camarada Legal");
 		destino.setSaldo(650.00);
