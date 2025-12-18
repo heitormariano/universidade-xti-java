@@ -25,13 +25,13 @@ public class Fluxo {
 		System.out.println();
 
 		System.out.println("Elementos da lista:");
-		ArrayList<Integer> list = new ArrayList<Integer>();
+		ArrayList<Integer> lista = new ArrayList<>();
 
 		for (int i = 0; i < 10; i++) {
-			list.add(i);
+			lista.add(i);
 		}
-
-		for (int numero : list) {
+        
+		for (int numero : lista) {
 			System.out.println(numero);
 		}
 
