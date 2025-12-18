@@ -1,50 +1,61 @@
-#
-# Project specific excludes
-#
+############################
+# Java
+############################
+*.class
 
-tomcat
+############################
+# Build directories
+############################
+out/
+target/
+bin/
+build/
+dist/
 
-#
-# Default excludes
-#
-
-# Binaries
-*.7z
-*.dmg
-*.gz
-*.iso
+############################
+# Package files (ignore by default)
+############################
 *.jar
-*.rar
-*.tar
-*.zip
 *.war
 *.ear
-*.sar
-bin/
 
-# Maven 
-target/
+############################
+# Logs
+############################
+*.log
 
-# IntelliJ project files 
+############################
+# IntelliJ IDEA
+############################
+.idea/
 *.iml
 *.iws
 *.ipr
-.idea/
 
-# eclipse project file
+############################
+# Eclipse
+############################
 .settings/
 .classpath
 .project
-.metadata
+.metadata/
 
-# NetBeans specific
+############################
+# NetBeans
+############################
 nbproject/private/
-build/
 nbbuild/
-dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
 
-### VS Code ###
+############################
+# VS Code
+############################
 .vscode/
+
+############################
+# OS / temp files
+############################
+.DS_Store
+Thumbs.db
