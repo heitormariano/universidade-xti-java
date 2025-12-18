@@ -3,7 +3,7 @@ package br.com.xti.aula024;
 public class Fluxo {
 
 	public static void main(String[] args) {
-		// switch.
+		// switch
 		char sexo = 'F';
 
 		switch (sexo) {

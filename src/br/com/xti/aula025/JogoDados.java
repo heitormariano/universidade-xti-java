@@ -23,7 +23,7 @@ public class JogoDados {
 		System.out.println("Valor do dado: " + numDado);
 
 		if (palpite == numDado) {
-			System.out.println("Palpite correto. Você acertou o numero do dado");
+			System.out.println("Palpite correto. Voce acertou o numero do dado");
 		} else {
 			System.out.println("Tente de novo. Palpite incorreto");
 		}
