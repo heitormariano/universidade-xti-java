@@ -4,22 +4,20 @@ import java.util.ArrayList;
 
 public class Fibonacci {
 
-	public static void main(String[] args) {
-		
-		ArrayList<Integer> fibonacci = new ArrayList<Integer>();
+    public static void main(String[] args) {
 
-		fibonacci.add(0);
-		fibonacci.add(1);
+        ArrayList<Integer> fibonacci = new ArrayList<>();
 
-		// Integer elemAtual = fibonacci.get(1);
+        fibonacci.add(0);
+        fibonacci.add(1);
 
-		Integer elemAtual;
+        Integer elemAtual;
 
-		for (int i = 2; fibonacci.get(i - 1) + fibonacci.get(i - 2) < 50; i++) {
-			elemAtual = fibonacci.get(i - 1) + fibonacci.get(i - 2);
-			fibonacci.add(elemAtual);
-		}
+        for (int i = 2; fibonacci.get(i - 1) + fibonacci.get(i - 2) < 50; i++) {
+            elemAtual = fibonacci.get(i - 1) + fibonacci.get(i - 2);
+            fibonacci.add(elemAtual);
+        }
 
-		System.out.println("Fibonacci [elementos menores que 50]: " + fibonacci.toString());
-	}
+        System.out.println("Fibonacci [elementos menores que 50]: " + fibonacci);
+    }
 }
